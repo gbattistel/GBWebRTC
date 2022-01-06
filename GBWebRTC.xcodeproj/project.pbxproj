@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56C6D47EE1C41DE650AAE53E /* Pods_GBWebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B47E73D3ECFCE8D78DB1D73 /* Pods_GBWebRTC.framework */; };
+		B356978527877B7300C4303B /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = B356978427877B7300C4303B /* Starscream */; };
 		B3890A0027872FCA0061E847 /* GBWebRTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38909FF27872FCA0061E847 /* GBWebRTC.swift */; };
-		B3890A2A27874C9B0061E847 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = B3890A2927874C9B0061E847 /* Starscream */; };
 		B3B660D72787289300DCE420 /* GBWebRTC.docc in Sources */ = {isa = PBXBuildFile; fileRef = B3B660D62787289300DCE420 /* GBWebRTC.docc */; };
 		B3B660DD2787289300DCE420 /* GBWebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B660D22787289300DCE420 /* GBWebRTC.framework */; };
 		B3B660E22787289300DCE420 /* GBWebRTCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B660E12787289300DCE420 /* GBWebRTCTests.swift */; };
 		B3B660E32787289300DCE420 /* GBWebRTC.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B660D52787289300DCE420 /* GBWebRTC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F10C742D7770EE60F3A176CD /* Pods_GBWebRTC_GBWebRTCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA59EAC27010F5139DF1E01B /* Pods_GBWebRTC_GBWebRTCTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +26,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D54B40C0F41C7393B90C4DE /* Pods-GBWebRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBWebRTC.release.xcconfig"; path = "Target Support Files/Pods-GBWebRTC/Pods-GBWebRTC.release.xcconfig"; sourceTree = "<group>"; };
-		6B47E73D3ECFCE8D78DB1D73 /* Pods_GBWebRTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBWebRTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A38F523CDC053FE50CCD01C0 /* Pods-GBWebRTC-GBWebRTCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBWebRTC-GBWebRTCTests.debug.xcconfig"; path = "Target Support Files/Pods-GBWebRTC-GBWebRTCTests/Pods-GBWebRTC-GBWebRTCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B38909FF27872FCA0061E847 /* GBWebRTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBWebRTC.swift; sourceTree = "<group>"; };
 		B3890A01278733660061E847 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		B3B660D22787289300DCE420 /* GBWebRTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBWebRTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,9 +33,6 @@
 		B3B660D62787289300DCE420 /* GBWebRTC.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GBWebRTC.docc; sourceTree = "<group>"; };
 		B3B660DC2787289300DCE420 /* GBWebRTCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBWebRTCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B660E12787289300DCE420 /* GBWebRTCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBWebRTCTests.swift; sourceTree = "<group>"; };
-		C18E9CCB648775D626848273 /* Pods-GBWebRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBWebRTC.debug.xcconfig"; path = "Target Support Files/Pods-GBWebRTC/Pods-GBWebRTC.debug.xcconfig"; sourceTree = "<group>"; };
-		DA59EAC27010F5139DF1E01B /* Pods_GBWebRTC_GBWebRTCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBWebRTC_GBWebRTCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8331CA24786DF7C893AF2C9 /* Pods-GBWebRTC-GBWebRTCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBWebRTC-GBWebRTCTests.release.xcconfig"; path = "Target Support Files/Pods-GBWebRTC-GBWebRTCTests/Pods-GBWebRTC-GBWebRTCTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56C6D47EE1C41DE650AAE53E /* Pods_GBWebRTC.framework in Frameworks */,
-				B3890A2A27874C9B0061E847 /* Starscream in Frameworks */,
+				B356978527877B7300C4303B /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,24 +49,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3B660DD2787289300DCE420 /* GBWebRTC.framework in Frameworks */,
-				F10C742D7770EE60F3A176CD /* Pods_GBWebRTC_GBWebRTCTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		41992CEF061D5C2476580132 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C18E9CCB648775D626848273 /* Pods-GBWebRTC.debug.xcconfig */,
-				2D54B40C0F41C7393B90C4DE /* Pods-GBWebRTC.release.xcconfig */,
-				A38F523CDC053FE50CCD01C0 /* Pods-GBWebRTC-GBWebRTCTests.debug.xcconfig */,
-				F8331CA24786DF7C893AF2C9 /* Pods-GBWebRTC-GBWebRTCTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		B3B660C82787289300DCE420 = {
 			isa = PBXGroup;
 			children = (
@@ -83,8 +62,6 @@
 				B3B660D42787289300DCE420 /* GBWebRTC */,
 				B3B660E02787289300DCE420 /* GBWebRTCTests */,
 				B3B660D32787289300DCE420 /* Products */,
-				41992CEF061D5C2476580132 /* Pods */,
-				BD56C2A056A026CD204C832D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,15 +92,6 @@
 			path = GBWebRTCTests;
 			sourceTree = "<group>";
 		};
-		BD56C2A056A026CD204C832D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6B47E73D3ECFCE8D78DB1D73 /* Pods_GBWebRTC.framework */,
-				DA59EAC27010F5139DF1E01B /* Pods_GBWebRTC_GBWebRTCTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -142,7 +110,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3B660E62787289300DCE420 /* Build configuration list for PBXNativeTarget "GBWebRTC" */;
 			buildPhases = (
-				827758AD1B4C693E0B767DD0 /* [CP] Check Pods Manifest.lock */,
 				B3B660CD2787289300DCE420 /* Headers */,
 				B3B660CE2787289300DCE420 /* Sources */,
 				B3B660CF2787289300DCE420 /* Frameworks */,
@@ -154,7 +121,7 @@
 			);
 			name = GBWebRTC;
 			packageProductDependencies = (
-				B3890A2927874C9B0061E847 /* Starscream */,
+				B356978427877B7300C4303B /* Starscream */,
 			);
 			productName = GBWebRTC;
 			productReference = B3B660D22787289300DCE420 /* GBWebRTC.framework */;
@@ -164,11 +131,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3B660E92787289300DCE420 /* Build configuration list for PBXNativeTarget "GBWebRTCTests" */;
 			buildPhases = (
-				166F68473831EE3623942849 /* [CP] Check Pods Manifest.lock */,
 				B3B660D82787289300DCE420 /* Sources */,
 				B3B660D92787289300DCE420 /* Frameworks */,
 				B3B660DA2787289300DCE420 /* Resources */,
-				86839746513653144696B41D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,7 +173,7 @@
 			);
 			mainGroup = B3B660C82787289300DCE420;
 			packageReferences = (
-				B3890A2827874C9B0061E847 /* XCRemoteSwiftPackageReference "Starscream" */,
+				B356978327877B7300C4303B /* XCRemoteSwiftPackageReference "Starscream" */,
 			);
 			productRefGroup = B3B660D32787289300DCE420 /* Products */;
 			projectDirPath = "";
@@ -236,70 +201,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		166F68473831EE3623942849 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GBWebRTC-GBWebRTCTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		827758AD1B4C693E0B767DD0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GBWebRTC-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		86839746513653144696B41D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GBWebRTC-GBWebRTCTests/Pods-GBWebRTC-GBWebRTCTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GBWebRTC-GBWebRTCTests/Pods-GBWebRTC-GBWebRTCTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GBWebRTC-GBWebRTCTests/Pods-GBWebRTC-GBWebRTCTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3B660CE2787289300DCE420 /* Sources */ = {
@@ -454,7 +355,6 @@
 		};
 		B3B660E72787289300DCE420 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C18E9CCB648775D626848273 /* Pods-GBWebRTC.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -483,7 +383,6 @@
 		};
 		B3B660E82787289300DCE420 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D54B40C0F41C7393B90C4DE /* Pods-GBWebRTC.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -512,7 +411,6 @@
 		};
 		B3B660EA2787289300DCE420 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A38F523CDC053FE50CCD01C0 /* Pods-GBWebRTC-GBWebRTCTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,7 +432,6 @@
 		};
 		B3B660EB2787289300DCE420 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8331CA24786DF7C893AF2C9 /* Pods-GBWebRTC-GBWebRTCTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -587,20 +484,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B3890A2827874C9B0061E847 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+		B356978327877B7300C4303B /* XCRemoteSwiftPackageReference "Starscream" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/daltoniam/Starscream.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B3890A2927874C9B0061E847 /* Starscream */ = {
+		B356978427877B7300C4303B /* Starscream */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B3890A2827874C9B0061E847 /* XCRemoteSwiftPackageReference "Starscream" */;
+			package = B356978327877B7300C4303B /* XCRemoteSwiftPackageReference "Starscream" */;
 			productName = Starscream;
 		};
 /* End XCSwiftPackageProductDependency section */

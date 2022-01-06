@@ -6,7 +6,6 @@ target 'GBWebRTC' do
   use_frameworks!
 
   pod 'Bugsnag', '~> 6.9.1'
-  pod 'Starscream', '~> 4.0.4'
   pod 'GoogleWebRTC', '~> 1.1.31999'
 
   target 'GBWebRTCTests' do

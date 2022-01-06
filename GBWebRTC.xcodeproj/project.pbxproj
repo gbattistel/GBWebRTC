@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		56C6D47EE1C41DE650AAE53E /* Pods_GBWebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B47E73D3ECFCE8D78DB1D73 /* Pods_GBWebRTC.framework */; };
 		B3890A0027872FCA0061E847 /* GBWebRTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38909FF27872FCA0061E847 /* GBWebRTC.swift */; };
+		B3890A2A27874C9B0061E847 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = B3890A2927874C9B0061E847 /* Starscream */; };
 		B3B660D72787289300DCE420 /* GBWebRTC.docc in Sources */ = {isa = PBXBuildFile; fileRef = B3B660D62787289300DCE420 /* GBWebRTC.docc */; };
 		B3B660DD2787289300DCE420 /* GBWebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B660D22787289300DCE420 /* GBWebRTC.framework */; };
 		B3B660E22787289300DCE420 /* GBWebRTCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B660E12787289300DCE420 /* GBWebRTCTests.swift */; };
@@ -48,6 +49,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56C6D47EE1C41DE650AAE53E /* Pods_GBWebRTC.framework in Frameworks */,
+				B3890A2A27874C9B0061E847 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +73,6 @@
 				A38F523CDC053FE50CCD01C0 /* Pods-GBWebRTC-GBWebRTCTests.debug.xcconfig */,
 				F8331CA24786DF7C893AF2C9 /* Pods-GBWebRTC-GBWebRTCTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +153,9 @@
 			dependencies = (
 			);
 			name = GBWebRTC;
+			packageProductDependencies = (
+				B3890A2927874C9B0061E847 /* Starscream */,
+			);
 			productName = GBWebRTC;
 			productReference = B3B660D22787289300DCE420 /* GBWebRTC.framework */;
 			productType = "com.apple.product-type.framework";
@@ -203,6 +207,9 @@
 				Base,
 			);
 			mainGroup = B3B660C82787289300DCE420;
+			packageReferences = (
+				B3890A2827874C9B0061E847 /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
 			productRefGroup = B3B660D32787289300DCE420 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -578,6 +585,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B3890A2827874C9B0061E847 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B3890A2927874C9B0061E847 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3890A2827874C9B0061E847 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B3B660C92787289300DCE420 /* Project object */;
 }

@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import Starscream
+import WebRTC
 
 public class GBWebRTC {
     
@@ -13,5 +15,13 @@ public class GBWebRTC {
     
     public static func getVersion() -> String {
         return "v1.0"
+    }
+    
+    public static func getStarScreamVersion() -> Double {
+        return StarscreamVersionNumber
+    }
+    
+    public static func testWebRTCLibrary() -> RTCConfiguration {
+        return RTCConfiguration()
     }
 }

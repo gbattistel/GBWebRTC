@@ -11,6 +11,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "GBWebRTC",
+                dependencies: ["Starscream"]
                 path: "GBWebRTC")
     ]
 )

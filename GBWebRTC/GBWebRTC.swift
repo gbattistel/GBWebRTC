@@ -11,7 +11,7 @@ public class GBWebRTC {
     
     private init() {}
     
-    public func getVersion() -> String {
+    public static func getVersion() -> String {
         return "v1.0"
     }
 }

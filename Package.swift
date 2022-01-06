@@ -6,9 +6,7 @@ let package = Package(
     products: [
         .library(name: "GBWebRTC", targets: ["GBWebRTC"])
     ],
-    dependencies: [
-        .package(url: "https://github.com/daltoniam/Starscream.git", majorVersion: 4)
-    ],
+    dependencies: [],
     targets: [
         .target(name: "GBWebRTC",
                 path: "GBWebRTC")
